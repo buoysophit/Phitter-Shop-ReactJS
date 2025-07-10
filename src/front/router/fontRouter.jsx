@@ -1,5 +1,5 @@
 import { Route, Routes } from "react-router-dom";
-import Master from "../layout/Master";
+import Master from "../layout/master";
 import HomePage from "../pages/HomePage";
 
 const FrontRoutes = () => {
