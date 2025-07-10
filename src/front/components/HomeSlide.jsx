@@ -5,6 +5,7 @@ import AOS from "aos"
 import "aos/dist/aos.css"
 import HomeBrand from "./HomeBrand"
 
+
 const HomeSlide = () => {
   useEffect(() => {
     AOS.init({
@@ -87,17 +88,22 @@ const HomeSlide = () => {
                 <div className="text-center space-y-6">
                   <div className="relative mx-auto">
                     <div
-                      className="relative w-64 h-80 bg-gradient-to-br from-blue-500 to-purple-600 rounded-3xl shadow-xl mx-auto"
+                      className="relative w-64 h-80 rounded-3xl shadow-2xl mx-auto overflow-hidden"
                       data-aos="zoom-in"
                       data-aos-delay="500"
                     >
-                      <div className="absolute inset-4 bg-black rounded-2xl flex items-center justify-center">
-                        <div className="text-white text-center space-y-2">
-                          <div className="w-16 h-16 mx-auto bg-gradient-to-br from-blue-400 to-purple-500 rounded-full flex items-center justify-center text-2xl">
-                            📱
-                          </div>
-                          <h3 className="font-bold text-lg">Galaxy Z Fold 6</h3>
-                          <p className="text-sm text-gray-300">AI Technology</p>
+                      {/* iPhone Image */}
+                      <img
+                        src="/iphone.png"
+                        alt="iPhone 15 Pro"
+                        className="w-full h-full object-cover rounded-3xl"
+                      />
+                      
+                      {/* Overlay with product info */}
+                      <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-4">
+                        <div className="text-white text-center space-y-1">
+                          <h3 className="font-bold text-lg">iPhone 15 Pro</h3>
+                          <p className="text-sm text-gray-300">Titanium Design</p>
                         </div>
                       </div>
 

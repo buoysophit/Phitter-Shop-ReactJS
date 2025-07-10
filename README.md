@@ -2,6 +2,22 @@
 
 A modern e-commerce React application built with Vite, featuring a responsive design with Tailwind CSS and smooth animations.
 
+## 📸 Screenshots
+
+### Hero Section
+![Phitter Shop Hero Banner](/public/p1.png)
+*Modern hero section featuring the latest smartphones with gradient design and smooth animations*
+
+### Product Showcase
+![Special Offers Section](/public/p2.png)
+*Special offers section displaying MacBooks, accessories, and other tech products with countdown timers*
+
+### Interactive Features
+- **Responsive Design** - Optimized for all screen sizes
+- **Smooth Animations** - AOS library integration for engaging user experience  
+- **Product Cards** - Interactive hover effects and detailed product information
+- **Real-time Offers** - Countdown timers and discount badges
+
 ## ✨ Features
 
 - 🎨 **Modern UI/UX** - Clean and responsive design with Tailwind CSS
@@ -29,7 +45,7 @@ A modern e-commerce React application built with Vite, featuring a responsive de
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/phitter-shop.git
+   git clone https://github.com/buoysophit/phitter-shop.git
    cd phitter-shop
    ```
 
@@ -120,7 +136,21 @@ phitter-shop/
 - **Footer** - Site footer
 - **Master** - Main layout wrapper
 
+## 🖼️ Live Preview
+
+### Navigation & Header
+![Navigation Header](https://i.imgur.com/navigation-header.jpg)
+*Responsive navigation with search functionality and user account options*
+
+### Product Categories
+![Product Categories](https://i.imgur.com/product-categories.jpg)
+*Well-organized product categories with filtering options*
+
 ## 🎯 Features in Detail
+
+### 🏠 Homepage Design
+![Homepage Layout](https://i.imgur.com/homepage-layout.jpg)
+*Clean and modern homepage with intuitive navigation and product categories*
 
 ### Product Display
 - Responsive grid layout (1-6 columns based on screen size)
@@ -129,6 +159,10 @@ phitter-shop/
 - "NEW" badges for new products
 - Warranty information display
 - Add to cart functionality
+
+### 🛒 Special Offers Section
+![Special Offers](https://i.imgur.com/special-offers-detail.jpg)
+*Interactive special offers with countdown timers and discount badges*
 
 ### Animations
 - Smooth scroll animations using AOS
